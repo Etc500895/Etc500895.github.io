@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: aquamarine;
+    padding: 25px 0px;
+}
+nav a {
+    color: gray;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.p1 {
+    font-size: smaller;
+    font-style: italic;
+}
+.p2 {
+    font-size: smaller;
+    font-style: italic;
+}
+.p3 {
+    font-size: smaller;
+    font-style: italic;
+}
+.p4 {
+    font-size: smaller;
+    font-style: italic;
+}

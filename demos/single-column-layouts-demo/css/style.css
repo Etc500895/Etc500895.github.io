@@ -1,0 +1,43 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+.single-column {
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: aquamarine;
+    padding: 25px 0px;
+}
+nav a {
+    color: rgb(225, 92, 21);
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.btn {
+    border: 1px solid rgb(225, 92, 21);
+    border-radius: 10px;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: inline-block;
+    background-color:rgb(225, 92, 21);
+    color: white;
+}
+a.btn.alt {
+    background-color: transparent;
+    color:rgb(225, 92, 21);
+}
+.btn:hover {
+    background-color: blue;
+    border-color: blue;
+    color:rgb(225, 92, 21);
+}
+a.btn.alt:hover {
+    color:rgb(225, 92, 21);
+}
