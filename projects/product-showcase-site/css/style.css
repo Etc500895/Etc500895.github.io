@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Agrave+Pro:wght@100..700&family=BBH+Bogle&family=Science+Gothic:wght@100..900&display=swap');
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: "Agrave Pro", cursive;
+}
+.single-column {
+    width: 80%;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+header {
+    background-color: aquamarine;
+    padding: 25px 0px;
+    text-align: center;
+}
+nav a {
+    color: rgb(225, 92, 21);
+    text-decoration: none;
+    margin: 0px 10px;
+}
+.btn {
+    border: 1px solid rgb(174, 26, 174);
+    border-radius: 10px;
+    padding: 12px 24px;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(174, 26, 174);
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    transition: 
+        background-color 0.5s,
+        border-color 0.5s,
+        color 0.5s;
+}
+.btn:hover {
+    background-color: teal;
+    border-color: teal;
+    color: rgb(174, 26, 174);
+}
+.bg {
+    background-color: beige;
+    padding: 25px 0px;   
+}
+h1,
+h2 {
+    margin-top: 0px;
+    font-family: "Science Gothic", sans-serif;
+    text-align: center;
+}
+.lbg {
+    padding: 25px 0px;
+    background-color: eee;
+}
