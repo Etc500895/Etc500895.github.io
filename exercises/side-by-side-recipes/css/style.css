@@ -9,6 +9,15 @@ img {
     width: 100%;
     object-fit: cover;
 }
+#s1 {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 250px;
+}
 .breakfast1 {
     width: 400px;
     height: 400px;
@@ -31,31 +40,20 @@ img {
     border-color: black;
     color:white;
 }
-#h2 {
-    text-align: center;
-    padding: 24px;
-}  
-.image-container {
-    
+#card-container {
+    padding: 48px;
+    display: flex;
+    gap: 45px;
 }
 .content {
- 
-}
-.sc {
-    width: 90%;
-    max-width: 1080px;
-    margin: 0px auto;
-}
-
-#card-container,
-#sc {
-    display: flex;
-    gap: 36px;
-
+    padding: 36px;
 }
 .card {
-    border: 2px solid black;
-    
+    flex: 1;
+}
+.card img {
+    height: 300px;
+}
+h2 {
     text-align: center;
-    margin: 36px 0px;
 }
