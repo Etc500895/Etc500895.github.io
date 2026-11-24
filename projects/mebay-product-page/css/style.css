@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+img {
+    width: 100%;
+    object-fit: cover;
+}
+#three-columns {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1 250px;
+}
+#thumbnail-column {
+    width: max-content;
+    margin: 56px;
+    flex: 1;
+}
+#featured-image-column {
+    padding: 12px;
+    flex: 2;
+}
+#product-info-column {
+    margin: 25px;
+    padding: 25px;
+    flex: 3;
+}
+.btn {
+    color: white;
+    background-color: blue;
+    text-decoration: none;
+    border: 3px solid blue;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    transition: 
+        background-color 0.5s,
+        border-color 0.5s,
+        color 0.5s;
+}
+.btn2,
+.btn3 {
+    color: blue;
+    text-decoration: none;
+    border: 3px solid blue;
+    padding: 12px;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+    transition: 
+        background-color 0.5s,
+        border-color 0.5s,
+        color 0.5s;
+}
+.btn:hover {
+    background-color: teal;
+    border-color: teal;
+    color: rgb(174, 26, 174);
+}
+.btn2:hover {
+    background-color: teal;
+    border-color: teal;
+    color: rgb(174, 26, 174);
+}
+.btn3:hover {
+    background-color: teal;
+    border-color: teal;
+    color: rgb(174, 26, 174);
+}
